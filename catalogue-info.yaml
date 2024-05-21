@@ -1,1 +1,12 @@
-
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nginx
+  description: |
+    Nginx
+  annotations:
+    github.com/project-slug: nginx-fork/nginx
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: CNCF
