@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nginx-fork
+  annotations:
+    github.com/project-slug: wetestroadie/nginx-fork
+spec:
+  type: other
+  lifecycle: unknown
+  owner: tba
